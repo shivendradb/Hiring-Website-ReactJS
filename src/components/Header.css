@@ -1,0 +1,156 @@
+.header {
+  color: white;
+  height: 60px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  margin: 20px 40px;
+}
+
+.leftContent {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  width: 86px;
+}
+
+/* .leftContent > img {
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+  align-items: center;
+  object-fit: contain;
+}
+
+.leftContent > img:hover {
+  height: 85px;
+  width: 85px;
+  object-fit: contain;
+  cursor: pointer;
+} */
+
+.leftContent > h1 {
+  height: 60px;
+  width: 400px;
+  margin-top: 20px;
+  font-size: 20px;
+  align-items: center;
+  object-fit: contain;
+}
+
+.leftContent > h1:hover {
+  font-size: 22px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.centerContent {
+  display: flex;
+  font-size: 8.5px;
+  align-items: center;
+  margin-left: 300px;
+  width: 400px;
+}
+
+.centerContent > h1 {
+  padding-top: 5px;
+  padding: 10px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+.team {
+  margin-right: -18px;
+}
+
+.centerContent > h1:hover {
+  color: beige;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.rightContent {
+  align-content: center;
+  margin-top: 15px;
+}
+
+.rightContent > button {
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+.rightContent > img {
+  display: none;
+}
+
+.rightContent > button:hover {
+  color: beige;
+  background-color: #e40017;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+@media (max-width: 1152px) {
+  .header {
+    margin: 20px 5px;
+  }
+
+  .centerContent {
+    margin-left: 50px;
+  }
+
+  .rightContent > button {
+    font-size: 10px;
+    /* margin-left: -50px; */
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    margin: 20px 5px;
+  }
+
+  .leftContent > h1 {
+    font-size: 16px;
+  }
+
+  .centerContent > h1 {
+    display: none;
+  }
+
+  .rightContent > button {
+    display: none;
+  }
+
+  .rightContent > img {
+    display: flex;
+    height: 40px;
+    margin-right: -20px;
+  }
+
+  .rightContent > img:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin: 10px 5px;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  .leftContent > h1 {
+    font-size: 12px;
+  }
+  .rightContent > img {
+    margin-top: -5px;
+  }
+}

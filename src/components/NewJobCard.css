@@ -1,0 +1,98 @@
+.NewJob_Card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 160px;
+  width: 320px;
+  border: 0.5px solid black;
+  border-radius: 20px;
+}
+
+.NewJob_Card_leftContent {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  text-align: left;
+}
+
+.NewJob_Card_leftContent > h1 {
+  margin-top: 25px;
+  font-size: 22px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.NewJob_Card_leftContent > h3 {
+  font-size: 15px;
+  color: red;
+  margin-left: 30px;
+}
+
+.NewJob_Card_leftContent > h3:hover {
+  font-size: 16px;
+  color: red;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.NewJob_Card_leftContent > h3 > span:hover {
+  font-size: 16px;
+  color: red;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.NewJob_Card_leftContent {
+  display: flex;
+  flex: 0.45;
+  flex-direction: column;
+}
+
+.NewJob_Card_rightContent {
+  flex-direction: row;
+  flex: 0.55;
+}
+
+.NewJob_Card_rightContent > img {
+  height: 150px;
+  object-fit: contain;
+}
+
+@media (max-width: 1300px) {
+  .NewJob_Card {
+    flex-direction: column;
+    height: 250px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .NewJob_Card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .NewJob_Card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 220px;
+  }
+
+  .NewJob_Card_leftContent > h1 {
+    font-size: 18px;
+  }
+
+  .NewJob_Card_leftContent > h3 {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,11 @@
+.body {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+/* 
+@media (max-width: 1000px) {
+  .body {
+    margin-bottom: -200px;
+  }
+} */

@@ -1,0 +1,21 @@
+.app {
+  margin: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+  border: 0.5px solid white;
+  border-radius: 25px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 700px) {
+  .app {
+    margin: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    margin: 15px;
+  }
+}
