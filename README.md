@@ -6,8 +6,8 @@
 ## 🎯 About
 
 I started this project with the purpose of learning and integrating React JS and other libraries. <br/>
-I put a lot of effort into it and I hope that you could like it.
-The Web App lands you to an appealing Land Page, in which the user can choose to sign up by applying or to log in.
+I have put a lot of effort into it and I hope that you will like it.
+The Web App lands you to an appealing Landing Page, in which the user can choose to sign up by applying or to log in.
 <br/><br/>
 ➡️ Go try it and please let me know if you enjoyed it with a ⭐️, I would appreciate it a lot.
 <br/>
